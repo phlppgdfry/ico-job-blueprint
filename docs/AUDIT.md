@@ -43,6 +43,12 @@ Browser/IAB-acquisitie via CUA gaf **“No browser is available”**. Daarom Pla
 
 Vier Node-tests en zes end-to-endtests slagen. Scripts: `npm test`, `npx playwright test`, `npm run build`. Unitchecks toetsen inhoudelijke afspraken en importgrenzen; UI-tests toetsen echt gebruikersgedrag.
 
+## Publicatie en live controle
+
+Openbare repository: [phlppgdfry/ico-job-blueprint](https://github.com/phlppgdfry/ico-job-blueprint). Live: [ROLE / OS](https://phlppgdfry.github.io/ico-job-blueprint/). [GitHub build/test/deployment](https://github.com/phlppgdfry/ico-job-blueprint/actions/runs/37547745720) afgerond met success voor build en deploy. De actuele release-tags van de vijf officiële GitHub Actions zijn via GitHub API gecontroleerd voordat de workflow werd geschreven.
+
+Na publicatie gaf de site HTTP 200. Alle zes end-to-endtests zijn ook op de live app geslaagd, inclusief alle 30 hoofdstukken, search, persistence, import/export en mobiele weergave. De tests gebruiken relatieve routes zodat de projectsubdirectory op GitHub Pages correct blijft. Code en inhoud van de live app zijn dezelfde als de gecontroleerde lokale versie.
+
 ## Gevonden en daadwerkelijk hersteld
 
 1. Dubbele H1 op bronpagina: Markdown-brontitel naar H2 gerenderd.

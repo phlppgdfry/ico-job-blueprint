@@ -4,6 +4,10 @@ Onafhankelijk Nederlandstalig **Job Operating System** voor de vacature [IT Deve
 
 30 volledige hoofdstukken (circa 30.000 woorden), 35 herleidbare vacaturevereisten, 16 technische onderwerpen, 25 praktijkscenario’s, 14 incidentplaybooks, 56 interviewvragen, 30 vragen aan ICO en 3 portfolio-bouwopdrachten. Onderzocht op 7 oktober 2026.
 
+**[Open de webapp →](https://phlppgdfry.github.io/ico-job-blueprint/)**
+
+![Dashboard van ROLE / OS](docs/assets/dashboard.png)
+
 ## Begin hier
 
 - [Researchdossier en bronnen](research/DOSSIER.md)
@@ -47,6 +51,10 @@ npx playwright test
 ```
 
 `QA_BASE_URL` kan dezelfde tests op de live statische site uitvoeren. Tests controleren scope, veilige import, zoekroutes, alle hoofdstukken, modules, checklists, notities, oefeningen/timer, skills/requirements, export/import, thema en mobiel gedrag. Een workflow bouwt en publiceert de statische app via GitHub Pages; geen secrets of eigen server nodig.
+
+```sh
+QA_BASE_URL=https://phlppgdfry.github.io/ico-job-blueprint/ npx playwright test
+```
 
 ## Bronstatus en privacy
 
